@@ -1,6 +1,7 @@
 # Proteus junk Files
 *.pdsbak
 *.xml
+*.workspace
 
 # Picc CCS junk files
 *.bak

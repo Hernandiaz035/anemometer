@@ -64,7 +64,6 @@ void init() {
    enable_interrupts(INT_TIMER1);
 
    // Configuracion de Interrupciones
-   //ext_int_edge(0, H_TO_L);
    ext_int_edge(0, L_TO_H);
    enable_interrupts(INT_EXT);
    enable_interrupts(GLOBAL);
