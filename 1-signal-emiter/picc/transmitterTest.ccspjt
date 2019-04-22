@@ -1,0 +1,57 @@
+[Directories]
+Include=C:\Program Files (x86)\PICC5\Devices\;C:\Program Files (x86)\PICC5\Drivers\
+Library=
+LinkerScript=
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+[PROJECT]
+Target=transmitterTest.hex
+Development_Mode=
+Processor_Text=PIC18F2550
+ToolSuite=CCS
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=transmitterTest.c
+[transmitterTest.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=transmitterTest.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[CompilerVersion]
+Fixed=
+[Opened Files]
+1=transmitterTest.c
+2=Main.c
+3=..\..\..\..\..\..\Program Files (x86)\PICC5\Devices\18F2550.h
+4=..\..\A_8\BLINK_PLL\BLINK_PLL.c
+5=
+[Units]
+Count=1
+1=transmitterTest (main)

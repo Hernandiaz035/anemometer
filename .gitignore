@@ -1,0 +1,19 @@
+# Proteus junk Files
+*.pdsbak
+*.xml
+
+# Picc CCS junk files
+*.bak
+*.cof
+*.err
+*.esym
+*.hex
+*.lst
+*.STA
+*.sym
+*.tre
+*.xsym
+**/__history/
+
+# Extra
+*.swp

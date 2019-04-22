@@ -1,0 +1,20 @@
+[PROJECT]
+Target=EventDetector.hex
+Processor_Text=PIC18F2550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=EventDetector.c
+[Directories]
+Include=C:\Program Files (x86)\PICC5\Devices\;C:\Program Files (x86)\PICC5\Drivers\
+[EventDetector.c]
+Type=4
+[mru-list]
+1=EventDetector.c
+[Opened Files]
+1=EventDetector.c
+2=..\..\..\..\..\..\Program Files (x86)\PICC5\Devices\18F2550.h
+3=
+[Units]
+Count=1
+1=EventDetector (main)
