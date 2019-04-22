@@ -19,7 +19,7 @@ This project will be aproached on the described below:
 * 16mm Waterproof ultrasonic chinese transducers 40kHz.
 * Several electronics for power supply and signal filtering.
 
-# Software
+## Software
 * PICC CCS.
 * Proteus for simulation.
 * Matlab to build and test the equations system willing to be independet of sound speed constant.
