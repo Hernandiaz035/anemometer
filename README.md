@@ -1,6 +1,9 @@
-# Anemometer based on ultrasonic signal timing.
+# Anemometer based on ultrasonic.
 
-Plannig to build a homemade weather station.
+## Description
+This project pretends to develop an Anemometer free of the problems of common anemometers and only dependent of it self meassures avoiding weather conditions consntants (here we are going to try to avoid using or aproximanting sound speed). The device might optimize resources using cheap and non-mobile parts open to mechanical wear out.
+
+The project is divided by steps of approach of each feature.
 
 Common anemometers has several problems:
 * Needing of special calibration in a wind tunnel.
@@ -9,3 +12,14 @@ Common anemometers has several problems:
 * Use of mechanical parts that could suffer wear under hostile weather, like bearings getting rust.
 * Needs some optical or magnetic encoder, in case this are homemade, they would have a poor resolution.
 * For wind direction meassure is necesary a "wind vane", in case this is homemade preserve a absolute refference with an encoder is a complex task.
+
+## Hardware
+This project will be aproached on the described below:
+* A Microchip microcontroller from pic18 family, 18F2550 because of it clock speed.
+* 16mm Waterproof ultrasonic chinese transducers 40kHz.
+* Several electronics for power supply and signal filtering.
+
+# Software
+* PICC CCS.
+* Proteus for simulation.
+* Matlab to build and test the equations system willing to be independet of sound speed constant.
