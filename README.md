@@ -1,6 +1,6 @@
-# Anemometer Based on Ultrasonic Signals Timing
+# Anemometer based on ultrasonic signal timing.
 
-Plannig to 
+Plannig to build a homemade weather station.
 
 Common anemometers has several problems:
 * Needing of special calibration in a wind tunnel.
