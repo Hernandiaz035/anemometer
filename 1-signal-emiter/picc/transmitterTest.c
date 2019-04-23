@@ -1,8 +1,6 @@
 #include <18F2550.h>
 #DEVICE ADC = 10
 #DEVICE HIGH_INTS=TRUE
-// #include <stdio.h>
-// #include <stdlib.h>
 
 #FUSES NOWDT NOWRT NOLVP NOCPD NOPROTECT NOVREGEN NOUSBDIV
 // #FUSES MCLR NOBROWNOUT HSPLL PLL4 CPUDIV1
@@ -19,17 +17,15 @@ void main(){
    set_tris_c(0b10000000);
    output_c(0b01000000);
 
-   /*set_tris_c(0x00);
-   output_c(0x00);*/
-
    set_pwm1_duty(37);
 
    while(TRUE) {
       // fprintf(BUS, "OK\r\n");
-      // output_toggle(PIN_C0);
-      delay_us(10);
-      set_pwm1_duty(0);
-      delay_us(10);
-      set_pwm1_duty(37);
+      output_high(PIN_C0);
+      setup_ccp1(CCP_PWM);
+      delay_ms(1);
+      output_low(PIN_C0);
+      setup_ccp1(CCP_OFF);
+      delay_ms(1);
    }
 }

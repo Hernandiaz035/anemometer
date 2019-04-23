@@ -48,8 +48,8 @@ AdditionalOptionString=
 Fixed=
 [Opened Files]
 1=transmitterTest.c
-2=Main.c
-3=..\..\..\..\..\..\Program Files (x86)\PICC5\Devices\18F2550.h
+2=
+3=
 4=..\..\A_8\BLINK_PLL\BLINK_PLL.c
 5=
 [Units]
