@@ -6,7 +6,7 @@ This project pretends to develop an Anemometer free of the common issues anemome
 The project is divided by steps of approach according to each necessary feature.
 
 Common anemometers have several problems:
-* Need of special calibration when used inside a wind tunnel.
+* Need of a special calibration that should be done inside a wind tunnel for each physical change.
 * Dependency of specific random constants, provided by the shape and the angle of attack of the cups and quantity of cups.
 * Very limited range of wind speed.
 * Use of mechanical parts that could suffer wear use under hostile weather, like bearings getting rusty.
