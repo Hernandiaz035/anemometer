@@ -1,29 +1,29 @@
-# Anemometer based on ultrasonic.
+# Anemometer based on ultrasonic waves.
 
 ## Description
-This project pretends to develop an Anemometer free of the problems of common anemometers and only dependent of it self meassures avoiding weather conditions consntants (here we are going to try to avoid using or aproximanting sound speed). The device might optimize resources using cheap and non-mobile parts open to mechanical wear out.
+This project pretends to develop an Anemometer free of the common issues anemometers have and only dependent of its own measures avoiding weather conditions constants (with a special approach that tries to avoid using or approximating sound speed). The device will optimize resources using cheap and non-mobile parts exposed to mechanical wear out.
 
-The project is divided by steps of approach of each necesary feature.
+The project is divided by steps of approach according to each necessary feature.
 
-Common anemometers has several problems:
-* Needing of special calibration in a wind tunnel.
-* Dependency of specific random constants, provided by the shape and the atack angle of the cups, quantity of cups.
+Common anemometers have several problems:
+* Need of special calibration when used inside a wind tunnel.
+* Dependency of specific random constants, provided by the shape and the angle of attack of the cups and quantity of cups.
 * Very limited range of wind speed.
-* Use of mechanical parts that could suffer wear under hostile weather, like bearings getting rust.
-* Needs some optical or magnetic encoder, in case this are homemade, they would have a poor resolution.
-* For wind direction meassure is necesary a "wind vane", in case this is homemade preserve a absolute refference with an encoder is a complex task.
+* Use of mechanical parts that could suffer wear use under hostile weather, like bearings getting rusty.
+* Need of optical/magnetic encoder, in the cases they are homemade, they tend to have poor resolution.
+* For wind direction measure a "wind vane" gets necessary, in the cases they are homemade preserving an absolute reference with an encoder is a complex task.
 
 ## Hardware
-This project will be aproached on the hardware described below:
+This project will be approached using the hardware described below:
 * A Microchip microcontroller from pic18 family, 18F2550.
-* 16mm Waterproof ultrasonic chinese transducers 40kHz.
+* 16mm Waterproof ultrasonic Chinese transducers 40kHz.
 * Filtering electronics.
 * Power supply electronics.
 
 ### Filtering
-In purpose to detect the arriving of the signal at the receiver is necesary to develop a band-pass or high-pass filter for the incoming signal. This might be programmed in the microcontroller, acquiring analogue samples and applying digital filters or physically implemented with operational amplificators. According with the scope of this project is more convinient to use the hardware option due to the requirements of a microcontroller with the features to do the signal processing (Analog sampling, MIPS).
+With the purpose of detect the incoming signal at the receiver is necessary to develop a band-pass or high-pass filter. There are two ways of filtering the signal, It can be programmed in the microcontroller, acquiring analogue samples and applying digital filters but it can also be physically implemented using operational amplifiers. According to the scope of this project is more convenient to use the hardware (meaning op-amp) option due to the requirements of a microcontroller with the features to do the signal processing (Analog sampling, MIPS).
 
 ## Software
 * PICC CCS.
 * Proteus for simulation.
-* Matlab to build and test the equations system willing to be independet of sound speed constant.
+* Mat lab to build and test the equations system willing to be independent of sound speed constant.
